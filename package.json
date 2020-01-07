@@ -1,0 +1,27 @@
+{
+  "name": "codesnip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SajedNahian/CodeSnip.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SajedNahian/CodeSnip/issues"
+  },
+  "homepage": "https://github.com/SajedNahian/CodeSnip#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.1"
+  }
+}
